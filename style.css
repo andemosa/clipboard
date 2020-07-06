@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.columns,
+.first,
+.fourth,
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Header Start*/
+header {
+  background-image: url(img/bg-header-desktop.png);
+  background-size: cover;
+  text-align: center;
+  padding: 4em 0 2em;
+}
+h1 {
+  margin: 1em auto 0.5em;
+  width: 80%;
+  max-width: 600px;
+}
+.devices {
+  max-width: 600px;
+  margin: 1em auto;
+  width: 80%;
+}
+.links {
+  margin: 2em auto;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  margin: 1em 0.2em;
+  color: white;
+}
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+/*Header End*/
+
+/* Section One Start*/
+.first {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+h2 {
+  margin: 1em auto;
+}
+.cloud {
+  max-width: 600px;
+  margin: 1em auto 2em;
+  width: 80%;
+}
+.com-cards {
+  display: flex;
+}
+.com-container {
+  width: 50%;
+  margin-right: 2em;
+  margin-left: 1em;
+}
+.cards {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.card {
+  text-align: left;
+  margin: 0.5em 0;
+  padding-left: 2em;
+  border-radius: 10px;
+}
+.text {
+  max-width: 300px;
+  margin: 0.5em 0;
+}
+h3 {
+  margin: 0.5em 0;
+}
+/* Section One End*/
+
+/* Section Two Start*/
+.second {
+  text-align: center;
+  margin: 3em auto 0;
+}
+.snippet {
+  max-width: 600px;
+  margin: 1em auto;
+  width: 80%;
+}
+.device {
+  width: 60%;
+  margin: 1em auto 0;
+}
+/* Section Two End*/
+
+/* Section Three Start*/
+.third {
+  text-align: center;
+}
+.columns {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 4em;
+}
+.column {
+  width: 25%;
+  border-radius: 10px;
+  padding: 1em 0;
+}
+/* Section Three End*/
+
+/* Section Four Start*/
+.fourth {
+  display: flex;
+  justify-content: space-around;
+  margin: 4em auto;
+  padding: 0 4em;
+}
+.icons {
+  width: 15%;
+}
+/* Section Four End*/
+
+/* Section Five Start*/
+.fifth {
+  text-align: center;
+}
+.store {
+  max-width: 600px;
+  margin: 1em auto 3em;
+  width: 80%;
+}
+/* Section Five End*/
+
+/* Footer Start*/
+footer {
+  background-color: hsl(201, 29%, 87%);
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 4em;
+  margin-top: 5em;
+}
+.logo-foot {
+  width: 15%;
+  padding: 0.5em;
+}
+#logo-foot {
+  height: 50px;
+}
+.external {
+  width: 15%;
+  margin: 0 1em;
+  text-align: left;
+}
+.footer_links {
+  text-decoration: none;
+  display: block;
+  margin: 0.5em auto;
+  color: black;
+}
+.socials {
+  width: 15%;
+  display: flex;
+  padding-top: 1em;
+  margin-left: auto;
+  justify-content: space-between;
+}
+.social {
+  width: 30%;
+  color: black;
+}
+footer p {
+  padding: 1em;
+}
+/* Footer End*/
+
+/*Media Queries */
+@media (max-width: 820px) {
+  .columns {
+    padding: 3em 2em 1em;
+  }
+  .container {
+    padding: 1em 2em;
+  }
+  .footer_links {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 680px) {
+  header {
+    margin: 1em auto;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  .link {
+    margin: 0.5em;
+  }
+  .second {
+    margin: 3em auto;
+  }
+  .com-cards {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .com-container {
+    width: 100%;
+    margin: auto;
+  }
+  .cards {
+    margin: 1em auto;
+    width: 100%;
+  }
+  .card {
+    background-color: rgb(255, 251, 251);
+  }
+  .third {
+    margin-top: 2em;
+  }
+  .columns {
+    flex-direction: column;
+    padding: 1em 2em 2em;
+  }
+  .column {
+    width: 100%;
+    margin: 1em auto;
+    background-color: rgb(255, 251, 251);
+  }
+  .column h3 {
+    margin: 0.5em auto;
+  }
+  .fourth {
+    flex-direction: column;
+    margin: 2em auto;
+    padding: 0 2em;
+    text-align: center;
+  }
+  .fifth {
+    margin-top: 2em;
+  }
+  .icons {
+    width: 60%;
+    margin: 1em auto;
+  }
+  .store {
+    margin: 0 auto 1em;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+  .logo-foot {
+    width: 100%;
+  }
+  .external {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .socials {
+    width: 100%;
+    justify-content: center;
+    padding: 1em 2em 0;
+  }
+  .social {
+    width: 30%;
+  }
+}
